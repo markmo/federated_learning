@@ -1,0 +1,9 @@
+batch_size: 64
+test_batch_size: 1000
+n_epochs: 10
+learning_rate: 0.01
+momentum: 0.5
+cuda: False
+seed: 1
+log_interval: 30
+save_model: false
