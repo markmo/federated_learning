@@ -23,6 +23,7 @@ def train(constants, model, device, federated_train_loader, optimizer, epoch):
         loss = F.nll_loss(output, target)
         loss.backward()
         optimizer.step()
+        model.get()  # get the model back
         if batch_i % constants['log_interval'] == 0:
             loss = loss.get()
             print('Train Epoch: {} [{}/{} ({:.0f}%)]\tLoss: {:.6f}'.format(

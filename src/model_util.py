@@ -3,7 +3,7 @@ import yaml
 
 def load_hyperparams(file_path):
     with open(file_path) as f:
-        return yaml.load(f)
+        return yaml.load(f, Loader=yaml.FullLoader)
 
 
 def merge_dict(dict1, dict2):
