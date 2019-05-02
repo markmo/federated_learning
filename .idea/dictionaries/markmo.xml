@@ -3,10 +3,14 @@
     <words>
       <w>blockchain</w>
       <w>cuda</w>
+      <w>cython</w>
       <w>hyperparams</w>
       <w>ipfs</w>
       <w>merkle</w>
+      <w>nand</w>
+      <w>quant</w>
       <w>spdz</w>
+      <w>xnor</w>
     </words>
   </dictionary>
 </component>
