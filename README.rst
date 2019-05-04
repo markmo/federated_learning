@@ -81,25 +81,35 @@ Homomorphic Encryption
 Libraries:
 
 * `Microsoft SEAL <https://github.com/Microsoft/SEAL>`_ (C++, .NET)
+
   * `Microsoft/SEAL-Demo <https://github.com/Microsoft/SEAL-Demo>`_. Demos, Examples, Tutorials for using
     Microsoft SEAL library.
+
 * `Lab41/PySEAL <https://github.com/Lab41/PySEAL>`_. This code wraps the Microsoft SEAL build in a docker
   container and provides a Python API to the encryption library.
+
   * `geworfener/using_pyseal <https://github.com/geworfener/using_pyseal>`_
+
 * `HELib <https://github.com/homenc/HElib>`_. (C++) At its present state, this library is fairly low-level,
   and is best thought of as "assembly language for HE". That is, it provides low-level routines (set, add,
   multiply, shift, etc.), with as much access to optimizations as we can give. (Developed at IBM.)
+
 * `vernamlab/cuFHE <https://github.com/vernamlab/cuFHE>`_. Low-level. Currently implemented gates are And,
   Or, Nand, Nor, Xor, Xnor, Not, Copy.
+
 * `nucypher/nufhe <https://github.com/nucypher/nufhe>`_ (Python). This library implements the fully
   homomorphic encryption algorithm from TFHE using CUDA and OpenCL.
+
 * `TFHE <https://tfhe.github.io/tfhe/>`_ (C++). The library supports the homomorphic evaluation of the
   10 binary gates (And, Or, Xor, Nand, Nor, etc…), as well as the negation and the Mux gate.
+
 * `ibarrond/Pyfhel <https://github.com/ibarrond/Pyfhel>`_ (Python). Perform encrypted computations such as
   sum, mult, scalar product or matrix multiplication in Python, with NumPy compatibility. Uses SEAL, HElib,
   and PALISADE as backends. Implemented using Cython.
+
 * `actuallyachraf/gomorph <https://github.com/actuallyachraf/gomorph>`_ (Go). Homomorphic Encryption in Golang.
   Implementation of `Paillier Cryptosystem <https://www.wikiwand.com/en/Paillier_cryptosystem>`_.
+
 * `hardbyte/Paillier.jl <https://github.com/hardbyte/Paillier.jl>`_ (Julia). A Julia implementation of
   the Paillier partially homomorphic encryption system
 
