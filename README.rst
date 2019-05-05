@@ -67,12 +67,13 @@ market for data to create value for producers and therefore drive adoption rathe
 relying on the dominant player in the marketplace, e.g. retailer.)
 
 
-Companies & Organisations in the space
---------------------------------------
+Multi-Party Computation (MPC)
+-----------------------------
 
-1. `OpenMined <https://www.openmined.org/>`_
-2. `Effect.ai <https://effect.ai>`_ - Largely labelling, payment in crypto currency
-3. `SingularityNET <https://singularitynet.io/>`_ - ditto
+* Given multiple parties each with private data :math:`x_1, x_2, ..., x_n`
+* Parties engage in computing a function :math:`f(x_1, x_2, ..., x_n)`
+* Nothing is revealed about the inputs beyond what the outputs of :math:`f` reveals
+* What :math:`f` leaks is an orthogonal question, e.g. the realm of Differential Privacy
 
 
 Homomorphic Encryption
@@ -122,7 +123,18 @@ Implementations:
 * `Numerai <https://numer.ai/>`_. Hedge fund using decentralised quant services.
 
 
+Companies & Organisations in the space
+--------------------------------------
+
+1. `OpenMined <https://www.openmined.org/>`_
+2. `Effect.ai <https://effect.ai>`_ - Largely labelling, payment in crypto currency
+3. `SingularityNET <https://singularitynet.io/>`_ - ditto
+4. `Enigma <https://enigma.co/>`_ - Introduces the concept of a Secret Contract. Uses MPC.
+   Very interesting. Not quite ready yet from a developer's perspective.
+5. `Ocean Protocol <https://oceanprotocol.com/>`_ - A Decentralized Data Exchange Protocol.
+   Currently using Ethereum. May use Enigma. Also very relevant to our goals.
 
 References:
 
 1. `Learn to securely share files on the blockchain with IPFS <https://medium.com/@mycoralhealth/learn-to-securely-share-files-on-the-blockchain-with-ipfs-219ee47df54c>`_
+2. `Sharing Knowledge without Sharing Data <https://www.youtube.com/watch?v=P2MmO458xu4>`_

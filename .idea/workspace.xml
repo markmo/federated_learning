@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a6c6137-40d4-490a-8b0f-a1595524d89c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/markmo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/markmo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
     </list>
@@ -43,9 +44,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="y" value="522" />
     <option name="width" value="1680" />
-    <option name="height" value="974" />
+    <option name="height" value="475" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -131,18 +132,18 @@
       <workItem from="1556759447472" duration="1902000" />
       <workItem from="1556799054780" duration="5000" />
       <workItem from="1556831257916" duration="146000" />
-      <workItem from="1556973321132" duration="73000" />
+      <workItem from="1556973321132" duration="232000" />
+      <workItem from="1557006400674" duration="1387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12040000" />
+    <option name="totallyTimeSpent" value="13586000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="974" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="522" width="1680" height="475" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17948718" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18131869" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
